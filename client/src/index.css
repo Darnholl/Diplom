@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.gradbg {
+  background: linear-gradient(
+    to right,
+    black,
+    20%,
+    rgb(113, 174, 174),
+    80%,
+    black
+  );
+}
+.gradbg1 {
+  background: linear-gradient(
+    to right,
+    rgb(2, 6, 12),
+    rgb(24, 59, 86),
+    rgba(59, 93, 114, 1),
+    rgba(147, 178, 191, 1)
+  );
+}
+
+.shdw {
+  box-shadow: 0px 0px 5px -1px rgb(98, 188, 161);
+}
+.shdw1 {
+  box-shadow: 0px 0px 20px -3px rgb(20, 120, 110) inset;
+}
